@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Records</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="ct">
+            <h2>Task Records</h2>
+            <label>Task: </label>
+            <input class="input" type="text" id="inp" placeholder="Task..." required>
+            <label>Priority: </label>
+            <select class="input" id="priority" required>
+                <option value="High" selected>High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <br>
+            <label id = "dead">Deadline:</label>
+            <input class= "input" type= "date" id = "inp1">
+            <label id="lbl">Label:</label>
+            <input class="input" type="text" id = "inp2" placeholder="give a lebel..">
+            <br>
+            <br>
+            <span onclick="addItem()" class="add">Add</span>
+            <div class="info"><label>Displayed tasks: <span id="inf">0</span></label></div>
+            
+        </header>
+        <div class="scr">
+            <ul id="todos" >
+                <li>Add a new Task! To complete the tasks just click on X. </li>
+            </ul>
+        </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>

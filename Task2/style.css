@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(251,63,63,0.1);
+    background: linear-gradient(188deg, rgb(138, 67, 67) 0%, rgb(206, 171, 64) 100%);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    height: 250px;
+}
+
+label{
+    padding: 10px;
+    font-size: 26px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+    margin-inline: 50px;
+    margin-block: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 5px #888888;
+    background-color: rgba(207, 123, 20, 0.8);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: auto;
+    position: relative;
+}
+
+h2 {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+h2:hover {
+    letter-spacing: 2px;
+}
+
+.input {
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    height:auto;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.close {
+    position:absolute;
+    right: 0;
+    top:0;
+    margin: 5px;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    color: red;
+}
+
+
+.ct {
+    text-align: center;
+    justify-content: center;
+}
+
+.add {
+    margin-top: 100px;
+    background-color: green;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 10px;
+    padding: 5px 40px;
+    cursor: pointer;
+    
+}
+
+.scr {
+    height: 400px;
+    overflow: auto;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+#todos {
+    text-align: center;
+    justify-content: center;
+}
+
+#dead {
+    margin-left: -50px;
+}
+
+#lbl{
+    margin-left: 10px;
+}
